@@ -42,6 +42,7 @@ img {
   position: relative;
 }
 
+/* This way to create opacity for bg in a psuedo class was taken from css-tricks */
 .animalInfo::after {
   content: "";
   background: url(https://img-aws.ehowcdn.com/877x500p/photos.demandstudios.com/getty/article/99/68/180099751.jpg);
